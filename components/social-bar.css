@@ -40,6 +40,14 @@
   align-self: center;
   text-decoration: none;
 }
+.social-bar-text {
+  font-size: 1em;
+  align-self: center;
+  font-style: normal;
+  text-align: right;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-fourunits);
+}
 @media(max-width: 767px) {
   .social-bar-social-bar {
     padding-left: var(--dl-space-space-twounits);
@@ -52,5 +60,8 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
+  }
+  .social-bar-text {
+    width: 136px;
   }
 }
