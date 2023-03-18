@@ -1,0 +1,111 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  width: 299px;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navigation-links-navlink {
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-navlink1 {
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-navlink2 {
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    width: auto;
+    height: auto;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .navigation-links-container {
+    align-self: center;
+    flex-direction: column;
+  }
+  .navigation-links-navlink {
+    margin-left: var(--dl-space-space-twounits);
+  }
+  .navigation-links-navlink1 {
+    margin-left: var(--dl-space-space-twounits);
+  }
+  .navigation-links-navlink2 {
+    margin-left: var(--dl-space-space-twounits);
+  }
+  .navigation-links-root-class-name17 {
+    margin-left: var(--dl-space-space-fiveunits);
+  }
+}
+@media(max-width: 479px) {
+  .navigation-links-nav {
+    width: auto;
+    height: auto;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .navigation-links-container {
+    align-self: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .navigation-links-navlink {
+    align-self: center;
+    margin-bottom: 0px;
+  }
+  .navigation-links-navlink1 {
+    align-self: center;
+    margin-left: var(--dl-space-space-twounits);
+    margin-bottom: 0px;
+  }
+  .navigation-links-navlink2 {
+    align-self: center;
+    margin-top: 0px;
+    margin-left: var(--dl-space-space-twounits);
+    margin-bottom: 0px;
+  }
+  .navigation-links-root-class-name17 {
+    width: auto;
+    height: auto;
+    margin-left: 0px;
+  }
+}

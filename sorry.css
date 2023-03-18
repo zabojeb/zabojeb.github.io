@@ -1,0 +1,40 @@
+.sorry-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.sorry-text {
+  font-size: 2.5em;
+  align-self: center;
+  text-align: center;
+}
+.sorry-navlink {
+  color: rgb(255, 255, 255);
+  width: 191px;
+  height: 47px;
+  font-size: 23px;
+  font-style: normal;
+  margin-top: 40px;
+  text-align: center;
+  transition: 0.3s;
+  font-weight: 500;
+  padding-top: 5px;
+  border-color: #ffffff;
+  border-width: 4px;
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: 0px;
+  padding-right: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: transparent;
+}
+.sorry-navlink:hover {
+  color: #000000;
+  font-style: normal;
+  font-weight: 700;
+  background-color: #ffffff;
+}
