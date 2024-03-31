@@ -201,5 +201,22 @@
       data-section-id="header"
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
     ></script>
+    <script>
+    // List of icon filenames
+    var icons = ["icon_1.png", "icon_2.png", "icon_3.png", "icon_4.png", "icon_5.png", "icon_6.png", "icon_7.png", "icon_8.png", "icon_9.png", "icon_10.png"]; // Add more filenames as needed
+
+    // Function to get a random icon from the list
+    function getRandomIcon() {
+      var randomIndex = Math.floor(Math.random() * icons.length);
+      return icons[randomIndex];
+    }
+
+    // Set random icon on page load
+    window.onload = function() {
+      var iconLink = document.getElementById('icon');
+      var randomIcon = getRandomIcon();
+      iconLink.href = "public//logos/" + randomIcon;
+    };
+  </script>
   </body>
 </html>
