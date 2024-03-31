@@ -37,9 +37,10 @@
       }
     </style>
     <link
-      rel="shortcut icon"
-      href="public/playground_assets/yellow.png"
-      type="icon/png"
+      id="icon"
+      rel="icon"
+      href="public/logos/icon_1.svg"
+      type="image/svg+xml"
       sizes="32x32"
     />
     <link
@@ -201,9 +202,9 @@
       data-section-id="header"
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
     ></script>
-    <script>
+  <script>
     // List of icon filenames
-    var icons = ["icon_1.png", "icon_2.png", "icon_3.png", "icon_4.png", "icon_5.png", "icon_6.png", "icon_7.png", "icon_8.png", "icon_9.png", "icon_10.png"]; // Add more filenames as needed
+    var icons = ["icon_1.svg", "icon_2.svg", "icon_3.svg", "icon_4.svg", "icon_5.svg", "icon_6.svg", "icon_7.svg", "icon_8.svg", "icon_9.svg", "icon_10.svg"]; // Add more filenames as needed
 
     // Function to get a random icon from the list
     function getRandomIcon() {
@@ -215,7 +216,7 @@
     window.onload = function() {
       var iconLink = document.getElementById('icon');
       var randomIcon = getRandomIcon();
-      iconLink.href = "public//logos/" + randomIcon;
+      iconLink.href = "public/logos/" + randomIcon;
     };
   </script>
   </body>
